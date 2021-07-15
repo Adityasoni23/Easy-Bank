@@ -12,6 +12,8 @@
 .topnav {
 	background-color: #333;
 	overflow: hidden;
+	position: sticky;
+	top: 0;
   }
   
   /* Style the links inside the navigation bar */
@@ -44,6 +46,7 @@
 
 h1{
 	text-align: center;
+	
 }
 h2{
 	text-align: center;
@@ -79,5 +82,7 @@ figure{
 img{
 	width: 100%;
 	object-fit: cover;
+	border-radius: 80%;
+	
 }
 
