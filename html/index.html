@@ -15,9 +15,20 @@
 }
 
 .column {
-  float: left;
-  width: 33.33%;
-  padding: 20px;
+  height: 350px;
+  flex: 1 1 350px;
+  margin: 20px;
+
+}
+.row{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  transition: all 0.2 linear;
+
 }
 
 /* Clearfix (clear floats) */
@@ -57,8 +68,8 @@
                 
         </main>
         
-        <br>
-        <br>
+        <!-- <br>
+        <br> -->
         <section id="abc" >
                 <br>
             <p>"We provide loans,accept deposits and many more!"</p>
