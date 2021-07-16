@@ -24,7 +24,10 @@ nav {
     align-items: center;
     text-transform: uppercase;
 }
-
+nav{
+    position: sticky;
+    top: 0;
+}
 nav .logo {
     width: 25%;
     text-align: center;
