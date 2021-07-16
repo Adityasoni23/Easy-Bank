@@ -116,9 +116,29 @@ section .buttonone {
 
 }
 
+
 /* 
 .imageone {
     height: 200px;
     width: 200px;
     margin-left: 50px;
 } */
+/* @media screen and (max-width: 768px) {
+    .s{
+        width: 100%;
+    }
+    
+}
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+    .m{
+        width: 50%;
+    }
+    
+}
+@media screen and (min-width: 1201px) {
+    .l{
+        width: 33.33%;
+    }
+    
+} */
+
